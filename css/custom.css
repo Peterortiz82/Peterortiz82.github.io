@@ -48,6 +48,23 @@ footer {
 	padding: 0 50px;
 }
 
+.modal-content iframe {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.modal-content .close {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background-color: white;
+	font-size: 28px;
+	width: 30px;
+	opacity: 1;
+	border: none;
+	border-radius: 25px;
+}
+
 .btn-lg {
 	background-color: #e74c3c;
 	font-size: 36px;
