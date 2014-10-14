@@ -2112,3 +2112,8 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   })
 
 }(jQuery);
+
+$("#myModal").on('hidden.bs.modal', function (e) {
+    $("#myModal iframe").attr("src", $("#myModal iframe").attr("src"));
+});
+
